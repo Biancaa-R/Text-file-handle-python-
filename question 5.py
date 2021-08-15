@@ -3,7 +3,7 @@ alphabets present in a text file “happy.txt'''
 
 
 def lowercase():
-    F=open("D:\\12th file handle\\happy.txt","r")
+    F=open("happy.txt","r")
     count=0
     count_=0
     value=F.read()
