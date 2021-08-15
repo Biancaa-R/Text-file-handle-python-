@@ -5,7 +5,7 @@ the file.:'''
 #Try using both read and readlines
 
 def count_my(): #using read
-    F=open("D:\\12th file handle\\hi.txt","r")
+    F=open("hi.txt","r")
     count=0
     value=F.read()
     line=value.split()
@@ -19,7 +19,7 @@ def count_my(): #using read
 count_my()
 
 def count_my2(): #using readlines
-    F=open("D:\\12th file handle\\hi.txt","r")
+    F=open("hi.txt","r")
     count=0
     value=F.readlines()
     for line in value:
