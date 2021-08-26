@@ -1,4 +1,4 @@
-F=open("D:\\12th file handle\\happy.txt","r")
+F=open("happy.txt","r")
 # method 1
 val=F.read()
 val=val.split()
