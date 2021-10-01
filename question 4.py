@@ -1,6 +1,6 @@
 #program to print words with length less than or equal to 4
 
-F=open("D:\\12th file handle\\happy.txt","r")
+F=open("happy.txt","r")
 val=F.readlines()
 count=0
 for line in val:
